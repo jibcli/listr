@@ -1,0 +1,42 @@
+{
+  "name": "@jib/listr",
+  "description": "Listr plugin for @jib/cli",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "npm run build -- -w",
+    "lint": "tslint -p .",
+    "prebuild": "rimraf build",
+    "prepack": "npm run build",
+    "test": "ts-node ."
+  },
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "build",
+    "!build/spec"
+  ],
+  "keywords": [
+    "jib",
+    "cli",
+    "listr",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "@jib/cli": "^0.1.2"
+  },
+  "devDependencies": {
+    "@jib/cli": "^0.1.2",
+    "@jib/tslint": "0.0.1",
+    "@types/node": "^10.12.12",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/listr": "^0.13.0",
+    "listr": "^0.14.3"
+  }
+}
