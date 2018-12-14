@@ -2,6 +2,8 @@
 
 Add [`listr`](https://www.npmjs.com/package/listr) to `@jib/cli` projects.
 
+[![wercker status](https://app.wercker.com/status/cd7b90d39a30352c16ced5393564820c/s/master "wercker status")](https://app.wercker.com/project/byKey/cd7b90d39a30352c16ced5393564820c)
+
 ![listr](https://raw.githubusercontent.com/SamVerschueren/listr/HEAD/media/screenshot.gif)
 
 ## About
